@@ -1,0 +1,36 @@
+<div style="float: right;">
+<a class="btn btn-default" href="/users/logout" class="nav-link">Logout</a>
+</div>
+<h1 class="journal-title">
+  &#9825;&hearts;{{{user.name}}}'s Journals&#9825;&hearts;</h1>
+<a class="btn btn-primary" href = '/journals/add'>New Journal</a>
+<br>
+
+ {{#each journals}}
+
+<div class="journal-box">
+    <h2 class="journal-title">{{title}}</h2>
+    <p class="journal">{{entry}}</p>
+   
+   <!-- EDIT BUTTON -->
+<div class="journal-options">
+  <input type="button" onclick= "location.href='/journals/edit/{{_id}}';" value= "&#x270D;"/> 
+&ThickSpace;
+   &ThickSpace;
+    <!-- DELETE BUTTON -->
+    
+    <form action="/journals/delete/{{id}}?_method=DELETE" method="post" >
+
+    <input 
+    type="submit"
+    onclick="return confirm('Are you sure to delete this record ?');"
+    value="&#128465;"/>
+ 
+    </div>
+    </form>
+    </div>
+     
+{{else}}
+<br>
+  <p>no journals created. add a journal!!</p>
+{{/each}}

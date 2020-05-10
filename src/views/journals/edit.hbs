@@ -1,0 +1,22 @@
+{{#each errors}}
+  <div class="alert alert-danger">
+    {{text}}
+  </div>
+{{/each}}
+
+
+  <h3>Add Journal</h3>
+  <form action="/journals/edit/{{journal._id}}?_method=PUT" method="post">
+    <input type="hidden" name="_method" value="PUT">
+    <div class="form-group">
+      <label for="title">Title</label>
+      <input value="{{journal.title}}" type="text" class="form-control" name="title" required>
+    </div>
+    <div class="form-group">
+      <label for="entry">Entry</label>
+      <textarea class="form-control" name="entry" required>{{journal.entry}}</textarea>
+    </div>
+    <button type="submit" class="btn btn-primary">
+      Add
+    </button>
+  </form>

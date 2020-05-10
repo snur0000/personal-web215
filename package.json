@@ -1,0 +1,31 @@
+{
+    "name": "node-crud-login",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon src/",
+        "start": "index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bcryptjs": "^2.4.3",
+        "connect-flash": "^0.1.1",
+        "core-util-is": "^1.0.2",
+        "eslint-plugin-compat": "^3.5.1",
+        "express": "^4.16.2",
+        "express-handlebars": "^3.0.2",
+        "express-session": "^1.15.6",
+        "method-override": "^2.3.10",
+        "mongoose": "^5.0.2",
+        "passport": "^0.4.0",
+        "passport-local": "^1.0.0",
+        "webpack-dev-server": "^3.11.0"
+    },
+    "devDependencies": {
+        "handlebars": "^4.5.0",
+        "nodemon": "^1.18.6"
+    }
+}

@@ -1,0 +1,122 @@
+body{
+    margin: 10px;
+    padding: 10px;
+    color: #333333;
+    font-family: 'Karla', sans-serif;
+    position: relative; 
+}
+  .maincontent{
+ padding: 20px;
+  }
+.w3-container{
+    margin: 0;padding: 0;
+}
+  #front{
+      float: right;
+      font-size: 100px;
+  }
+  h1{
+      font-family: 'Give You Glory', cursive;
+      font-weight: 800;
+  }
+  nav{
+      color:deeppink;
+      font-size: medium;
+  }
+  hr{
+      margin: 0;
+      margin-bottom: 20px;
+      height: 1px;
+      background-color: lime;
+      border: none;
+
+  }
+  .journal-box{
+      margin-top: 10px;
+     margin-right: 10px;
+     padding:20px;
+      border: solid deeppink;
+      position: relative; 
+      float: left;
+    
+  }
+  .journal{
+    font-family: 'Give You Glory', cursive;
+    font-size: 24px;
+  }
+  .journal-title{
+      color: deeppink;
+      font-family: 'Give You Glory', cursive;
+      }
+ 
+  ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  li{
+      
+      list-style-type: none;
+  }
+  nav a:hover{
+      background-color: deeppink;
+      color:lime;
+  }
+  a{
+    text-decoration: none;
+    color: hotpink;
+  }
+  a:hover{
+      padding: 2px;
+      color: deeppink;
+      text-decoration: none;
+  }
+.btn-primary {
+    background-color: hotpink;
+    color: lime;
+    border-color: transparent;
+}
+.btn-default{
+    border-color: hotpink;
+}
+.btn-primary:hover,.btn-default:hover{
+    background-color: deeppink;
+    color: lime;
+    border-color: transparent;
+}
+.fa{
+    font-size: 30px;
+    color:hotpink;
+
+}
+.fa:hover{
+    font-size: 30px;
+    color:deeppink;
+
+}
+input[type="submit"],input[type="button"] {
+  margin: 0;
+    font-size: 20px;
+    border: none;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover{
+background-color: hotpink;
+}
+
+
+.journal-options{
+    border: none;
+    display: flex;
+   float: right;
+}
+.icon-size{
+    font-size: 30px;
+}
+.instagram{   
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+        }
