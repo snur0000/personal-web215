@@ -14,7 +14,8 @@ const mongoose = require('mongoose');
 mongoose.set('useUnifiedTopology', true);
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
-var url = 'mongodb://localhost:27017/ugh';
+var url = 'mongodb://sabna:makeitwork2020@ds161539.mlab.com:61539/heroku_6bc09tr0';
+//var url = 'mongodb://localhost:27017/ugh';
 
 mongoose.connect(url)
   .then(() => console.log('Mongo connected'))
