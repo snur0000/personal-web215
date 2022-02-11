@@ -16,7 +16,7 @@
         "core-util-is": "^1.0.2",
         "eslint-plugin-compat": "^3.5.1",
         "express": "^4.16.2",
-        "express-handlebars": "^3.0.2",
+        "express-handlebars": "^5.3.1",
         "express-session": "^1.15.6",
         "method-override": "^2.3.10",
         "mongoose": "^5.0.2",
